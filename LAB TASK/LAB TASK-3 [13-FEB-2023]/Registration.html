@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+    <title>Registration</title>
+</head>
+<body>
+    <h1 align="center">Registration</h1>
+    <form method="post" action="Registration.php">
+        <table align="center">
+            <td>
+                <fieldset>
+                    <legend>General Information: </legend>
+                    <table>
+                        <td>
+                            <label><b>First Name:</b> 
+                            <input type="text" name="firstname" id="firstname"></label>
+                            <br>
+
+                            <label> <b>Last Name:</b> 
+                                <input type="text" name="lastname" id="lastname"> </label>
+                            <br>
+                            <label> <b>Father's Name:</b> 
+                                <input type="text" name="fathersname" id="fathersname"> </label>
+                            <br>
+                            <label> <b>Mother's Name:</b> 
+                                <input type="text" name="mothersname" id="mothersname"> </label>
+                            <br>
+                            <label> <b>Gender:</b> 
+                                <input type="radio"name = "gender" id="gender" value="Male"> Male
+                                <input type="radio"name = "gender" id="gender" value="Female"> Female
+                            </label>
+                            <br>
+                            <label> <b>Date of Birth:</b> <input type="date" name="DOB" id="DOB"> </label>
+                            <br>
+                            <label> <b>Blood Group:</b> <select name="BG" id="BG">
+                                <option value="A+">A+</option>
+                                <option value="A-">A-</option>
+                                <option value="O+">O+</option>
+                                <option value="O-">O-</option>
+                                <option value="AB+">AB+</option>
+                                <option value="AB-">AB-</option>
+                            </select>
+                            </label>
+                            <br>
+                        </td>
+                    </table>
+                    </fieldset>
+        </table>
+
+        <table align="center">
+            <td>
+                <fieldset>
+                    <legend>Contact Information: </legend>
+                    <label> <b>Email:</b> <input type="email" name="email" id="email"></label>
+                    <br>
+                    <label> <b>Mobile/Phone: </b> <input type="text" name="phone" id="phone"> </label>
+                    <br>
+                    <label> <b>Website:</b> <input type="text" name="web" id="web"> </label>
+                    <br>
+                    <label> <b>Present Address:</b> <textarea name="address" id="address"> </textarea> </label>
+                </fieldset>
+            </td>
+        </table>
+
+        <table align="center">
+            <td>
+                <fieldset>
+                    <legend>Account Information: </legend>
+                    <label> <b>Username:</b> <input type="text" name="username" id="username"></label>
+                    <br>
+                    <label> <b>Password: </b> <input type="password" name="password" id="password"> </label>
+                </fieldset>
+            </td>
+        </table>
+        
+        <div class="text-center" align="center">
+            <button type="submit">Register</button>
+          </div>
+
+        <p align="center">Already have an account? Login 
+            <a href="Login.html">here</a>
+            </p>
+    </form>
+</body>
+</html>
