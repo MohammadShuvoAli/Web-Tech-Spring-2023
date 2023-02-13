@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+    <title>Profile Page</title>
+</head>
+<body>
+    <h1>Profile Page</h1>
+    <table>
+        <td>
+            <fieldset>
+                <legend>General Information: </legend>
+                <table>
+                    <td>
+                        <label><b>First Name:</b> <input type="text"></label>
+                        <br>
+                        <label> <b>Last Name:</b> <input type="text"> </label>
+                        <br>
+                        <label> <b>Father's Name:</b> <input type="text"> </label>
+                        <br>
+                        <label> <b>Mother's Name:</b> <input type="text"> </label>
+                        <br>
+                        <label> <b>Gender:</b> 
+                            <input type="radio" name="Male" id="Male"> Male
+                            <input type="radio" name="Female" id="Female"> Female
+                        </label>
+                        <br>
+                        <label> <b>Date of Birth:</b> <input type="date" name="DOB" id="DOB"> </label>
+                        <br>
+                        <label> <b>Blood Group:</b> <select name="BG" id="BG">
+                            <option value="A+">A+</option>
+                            <option value="A-">A-</option>
+                            <option value="O+">O+</option>
+                            <option value="O-">O-</option>
+                            <option value="AB+">AB+</option>
+                            <option value="AB-">AB-</option>
+                        </select>
+                        </label>
+                        <br>
+                    </td>
+
+                    <td>
+                        <label>Select a photo <input type="file"> </label>
+                    </td>
+                </table>
+                </fieldset>
+        <td>
+            <fieldset>
+                <legend>Contact Information: </legend>
+                <label> <b>Email:</b> <input type="email" name="email" id="email"></label>
+                <br>
+                <label> <b>Mobile/Phone: </b> <input type="text"> </label>
+                <br>
+                <label> <b>Website:</b> <input type="text"> </label>
+                <br>
+                <label> <b>Present Address:</b> <textarea name="Address" id="Address"> </textarea> </label>
+                </fieldset>
+        </td>
+            
+    </table>
+    <button type="submit">Register</button>
+    
+    
+</body>
+</html>
